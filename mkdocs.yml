@@ -1,0 +1,13 @@
+site_name: Cancer Prediction
+site_url: https://github.com/tamuracn/cancer-prediction-cnt25
+repo_url: https://github.com/tamuracn/cancer-prediction-cnt25
+nav:
+  - Home: index.md
+  - cancer-prediction:
+    - cancer model: cancer-prediction-cnt25/cancer_model.md
+    - streamlit app: cancer-prediction-cnt25/streamlit_app.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for file changes
